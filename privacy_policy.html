@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>プライバシーポリシー | フリマ出品アシスト Pro</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --indigo: #4f46e5;
+      --indigo-light: #eef2ff;
+      --text: #1a1a2e;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --bg: #ffffff;
+      --surface: #f9fafb;
+    }
+
+    body {
+      font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif;
+      font-size: 15px;
+      line-height: 1.85;
+      color: var(--text);
+      background: var(--bg);
+      padding: 0 20px 80px;
+    }
+
+    /* ヘッダー */
+    .header {
+      background: var(--indigo);
+      color: #fff;
+      padding: 40px 0 36px;
+      margin: 0 -20px 48px;
+      text-align: center;
+    }
+
+    .header .badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      background: rgba(255,255,255,0.18);
+      border-radius: 99px;
+      padding: 4px 14px;
+      margin-bottom: 14px;
+    }
+
+    .header h1 {
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      margin-bottom: 6px;
+    }
+
+    .header p {
+      font-size: 13px;
+      opacity: 0.78;
+    }
+
+    /* コンテンツ幅 */
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+    }
+
+    /* サマリーボックス */
+    .summary {
+      background: var(--indigo-light);
+      border: 1.5px solid #c7d2fe;
+      border-radius: 14px;
+      padding: 20px 24px;
+      margin-bottom: 40px;
+    }
+
+    .summary .summary-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--indigo);
+      letter-spacing: 0.05em;
+      margin-bottom: 10px;
+    }
+
+    .summary p {
+      font-size: 14px;
+      color: #3730a3;
+      line-height: 1.7;
+    }
+
+    /* セクション */
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--text);
+      border-left: 4px solid var(--indigo);
+      padding-left: 12px;
+      margin-bottom: 14px;
+      line-height: 1.5;
+    }
+
+    p { margin-bottom: 10px; }
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      padding-left: 0;
+      list-style: none;
+      margin: 8px 0 4px;
+    }
+
+    ul li {
+      position: relative;
+      padding-left: 16px;
+      margin-bottom: 6px;
+      font-size: 14.5px;
+    }
+
+    ul li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: var(--indigo);
+      font-weight: 700;
+    }
+
+    ul ul {
+      margin-top: 6px;
+      margin-left: 8px;
+    }
+
+    ul ul li::before {
+      content: "–";
+      color: var(--muted);
+      font-weight: 400;
+    }
+
+    /* 情報カード */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin: 14px 0;
+    }
+
+    .card-label {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--indigo);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    /* 送信先URL強調 */
+    .server-url {
+      display: inline-block;
+      background: #1e1b4b;
+      color: #a5b4fc;
+      font-family: 'SFMono-Regular', Consolas, monospace;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      word-break: break-all;
+      margin: 4px 0;
+    }
+
+    /* 注記 */
+    .note {
+      font-size: 13px;
+      color: var(--muted);
+      background: var(--surface);
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin-top: 10px;
+      border-left: 3px solid var(--border);
+    }
+
+    a {
+      color: var(--indigo);
+      text-decoration: none;
+      word-break: break-all;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    /* フッター */
+    .footer {
+      margin-top: 56px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    @media (max-width: 600px) {
+      .header h1 { font-size: 20px; }
+      h2 { font-size: 15px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="badge">Privacy Policy</div>
+    <h1>プライバシーポリシー</h1>
+    <p>フリマ出品アシスト Pro</p>
+  </div>
+
+  <div class="container">
+
+    <div class="summary">
+      <div class="summary-title">📋 このポリシーの概要</div>
+      <p>本拡張機能は、メルカリの商品ページから商品情報を取得し、ラクマやYahooフリマ・Yahooオークションの出品フォーム入力を効率化するChrome拡張機能です。ライセンス認証・無料トライアル管理のために必要最小限の情報を外部サーバーへ送信しますが、商品情報はブラウザ内で処理されます。</p>
+    </div>
+
+    <section>
+      <h2>1. 取得する情報</h2>
+      <p>本拡張機能は、以下の情報を取得または生成することがあります。</p>
+
+      <div class="card">
+        <div class="card-label">商品情報</div>
+        <ul>
+          <li>メルカリの商品ページ上に表示される情報
+            <ul>
+              <li>商品名・商品説明・価格・商品状態</li>
+              <li>商品画像URL等、出品補助に必要な情報</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-label">ライセンス・トライアル管理情報</div>
+        <ul>
+          <li>ライセンスキー</li>
+          <li>端末識別用の deviceId（ハッシュ化済み）</li>
+          <li>無料トライアル管理のための fingerprint（ハッシュ化済み）</li>
+        </ul>
+        <div class="note">※ deviceId および fingerprint は、OS・ブラウザ・画面解像度・言語設定等の環境情報をSHA-256でハッシュ化した識別子です。氏名や住所などの個人を直接特定する情報は含まれません。</div>
+      </div>
+
+      <div class="card">
+        <div class="card-label">ローカル保存情報</div>
+        <ul>
+          <li>保存済み商品情報（chrome.storage.local）</li>
+          <li>ライセンス認証状態・認証済みライセンスキー</li>
+          <li>最終認証時刻などの設定情報</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>2. 情報の利用目的</h2>
+      <p>取得した情報は、以下の目的でのみ利用します。</p>
+      <ul>
+        <li>メルカリの商品情報を取得し、ラクマ・Yahooフリマ・Yahooオークション等への出品入力を補助するため</li>
+        <li>商品画像の取得・変換・入力補助を行うため</li>
+        <li>無料トライアルの期間管理を行うため</li>
+        <li>ライセンスキーの認証および同一キーの不正な使い回し防止のため</li>
+        <li>本拡張機能の正常な動作維持および不正利用防止のため</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. 外部送信について</h2>
+      <p>ライセンス認証および無料トライアル管理のため、必要最小限の情報を以下の外部サーバーへ送信します。</p>
+
+      <div class="card">
+        <div class="card-label">送信先サーバー</div>
+        <span class="server-url">https://furima-license-server-1.onrender.com</span>
+        <p style="margin-top:10px; font-size:14px;">（Render上で運用するライセンス管理サーバー）</p>
+      </div>
+
+      <div class="card">
+        <div class="card-label">送信される情報と目的</div>
+        <ul>
+          <li>ライセンスキー → ライセンス認証</li>
+          <li>deviceId → 端末の識別・不正利用防止</li>
+          <li>fingerprint → 無料トライアル期間の管理</li>
+        </ul>
+      </div>
+
+      <p>商品情報そのものは外部へ送信されず、ブラウザ内でのみ処理されます。</p>
+    </section>
+
+    <section>
+      <h2>4. 情報の保存について</h2>
+      <ul>
+        <li>ブラウザのローカルストレージ（chrome.storage.local）への保存
+          <ul>
+            <li>取得した商品情報・ライセンス認証状態・認証済みライセンスキー・deviceId</li>
+          </ul>
+        </li>
+        <li>外部データベースへの保存
+          <ul>
+            <li>無料トライアル管理情報・ライセンスキーと端末情報の紐付け情報</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>5. 第三者提供について</h2>
+      <p>本拡張機能は、法令に基づく場合を除き、取得した情報を販売、貸与、または第三者へ提供しません。</p>
+      <p>ただし、ライセンス認証およびトライアル管理のために必要な範囲で、運用中のサーバーおよびデータベースサービス（Render）を利用します。</p>
+    </section>
+
+    <section>
+      <h2>6. 個人情報について</h2>
+      <p>本拡張機能は、氏名・住所・電話番号・メールアドレスなど個人を直接特定する情報を収集することを目的としていません。</p>
+      <p>ライセンス認証や技術的識別のために取り扱う deviceId および fingerprint は、いずれもSHA-256によりハッシュ化されており、元の環境情報を復元することはできません。</p>
+    </section>
+
+    <section>
+      <h2>7. セキュリティについて</h2>
+      <p>取得した情報の漏えい・不正アクセス・不正利用を防止するため、適切な管理を行います。ただし、インターネット通信の性質上、完全な安全性を保証するものではありません。</p>
+    </section>
+
+    <section>
+      <h2>8. ユーザーによる管理</h2>
+      <p>本拡張機能をアンインストールすることで、ブラウザ内に保存されたデータを削除できます。</p>
+      <p>ただし、不正利用防止のため、サーバー側に保存された無料トライアル情報やライセンス紐付け情報が残る場合があります。</p>
+    </section>
+
+    <section>
+      <h2>9. ポリシーの変更</h2>
+      <p>本ポリシーは、法令改正・機能変更・運用変更等に応じて改定されることがあります。重要な変更がある場合は、Chrome Web Store の掲載情報または下記お問い合わせ先にてお知らせします。</p>
+    </section>
+
+    <section>
+      <h2>10. お問い合わせ</h2>
+      <p>本ポリシーに関するご質問・ご意見は、以下よりお気軽にお問い合わせください。</p>
+      <div class="card">
+        <ul>
+          <li>note：<a href="https://note.com/niche_hobby" target="_blank">https://note.com/niche_hobby</a></li>
+          <li>販売ページ：<a href="https://fuukazin.gumroad.com/l/rswvg" target="_blank">https://fuukazin.gumroad.com/l/rswvg</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="footer">
+      <span>フリマ出品アシスト Pro</span>
+      <span>最終更新日：2026-04-02</span>
+    </div>
+
+  </div>
+</body>
+</html>
